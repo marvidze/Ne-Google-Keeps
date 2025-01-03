@@ -1,0 +1,49 @@
+main {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main__new-note-area {
+  margin-top: 30px;
+  margin-inline: auto;
+}
+.main__new-note {
+  height: 46px;
+  width: 700px;
+  max-width: 600px;
+  border: 1px solid #5f6368;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 5px black;
+}
+
+.main__new-note-content {
+  color: #bdbdbe;
+  font-family: "Lunasima", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  width: 100%;
+  margin-block: auto;
+  margin-inline: 20px;
+}
+
+.main__icon-create-list-area {
+}
+.main__icon-create-painting-area {
+}
+.main__icon-create-img-area {
+}
+.main__notes-area {
+}

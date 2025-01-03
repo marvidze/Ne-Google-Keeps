@@ -1,0 +1,32 @@
+.menu__area {
+  height: 100%;
+  width: 80px;
+}
+
+.menu__icons-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.menu__icon {
+  height: 24px;
+  width: 24px;
+  fill: #99999b;
+  margin-inline: auto;
+  margin-block: auto;
+}
+
+.menu__icon-area {
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+
+.menu__icon-area:hover {
+  background-color: #363535;
+}
