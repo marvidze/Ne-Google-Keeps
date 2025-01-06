@@ -5,7 +5,7 @@ const iconSearch = `
     viewBox="0 0 24 24"
     width="24px"
     xmlns="http://www.w3.org/2000/svg"
-    class="header__icon-search"
+    class="header__icon header__icon-search"
     >
       <path
         d="M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z"
@@ -15,7 +15,7 @@ const iconSearch = `
 `;
 
 const iconMenu = `
-  <svg focusable="false" viewBox="0 0 24 24" class="header__icon">
+  <svg focusable="false" viewBox="0 0 24 24" class="header__icon header__icon-menu">
     <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
   </svg>
 `;
@@ -25,7 +25,7 @@ const iconRender = `
     id="glyph"
     viewBox="0 0 32 32"
     xmlns="http://www.w3.org/2000/svg"
-    class="header__icon-rerender"
+    class="header__icon header__icon-rerender"
   >
     <path
     d="m14.63 26a10 10 0 1 1 10-10s0 .27 0 .45v.21a1 1 0 0 1 -1 1 1 1 0 0 1 -1-1v-.63a8 8 0 1 0 -2.82 6.11 1 1 0 0 1 1.41.11 1 1 0 0 1 -.12 1.41 10 10 0 0 1 -6.47 2.34z"
@@ -41,22 +41,22 @@ const iconDisplayFormat = `
           id="Layer_1"
           viewBox="0 0 64 64"
           xmlns="http://www.w3.org/2000/svg"
-          class="header__icon-display-format"
+          class="header__icon header__icon-display-format"
         >
           <g>
             <g>
               <path
-                d="m53 18h-42c-1.654 0-3-1.346-3-3v-8c0-1.654 1.346-3 3-3h42c1.654 0 3 1.346 3 3v8c0 1.654-1.346 3-3 3zm-41-4h40v-6h-40z"
+                d="m53 29h-42c-1.654 0-3-1.346-3-3v-8c0-1.654 1.346-3 3-3h42c1.654 0 3 1.346 3 3v8c0 1.654-1.346 3-3 3zm-41-4h40v-6h-40z"
               />
             </g>
 
             <g>
               <path
-                d="m53 40h-42c-1.654 0-3-1.346-3-3v-8c0-1.654 1.346-3 3-3h42c1.654 0 3 1.346 3 3v8c0 1.654-1.346 3-3 3zm-41-4h40v-6h-40z"
+                d="m53 49h-42c-1.654 0-3-1.346-3-3v-8c0-1.654 1.346-3 3-3h42c1.654 0 3 1.346 3 3v8c0 1.654-1.346 3-3 3zm-41-4h40v-6h-40z"
               />
             </g>
           </g>
-        </svg>
+  </svg>
 `;
 
 const iconSettings = `
@@ -70,7 +70,7 @@ const iconSettings = `
           viewBox="0 0 478.703 478.703"
           style="enable-background: new 0 0 478.703 478.703"
           xml:space="preserve"
-          class="header__icon-settings"
+          class="header__icon header__icon-settings"
         >
           <g>
             <g>
@@ -90,7 +90,7 @@ const iconGoggleApps = `
           id="Icon"
           viewBox="0 0 64 64"
           xmlns="http://www.w3.org/2000/svg"
-          class="header__icon-google-apps"
+          class="header__icon"
         >
           <circle cx="32" cy="32" r="8" />
           <circle cx="11" cy="32" r="8" />
